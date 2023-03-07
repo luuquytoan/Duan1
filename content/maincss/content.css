@@ -1,0 +1,57 @@
+.content{
+    padding: 10px 0;
+}
+
+.content a{
+    text-decoration: none;
+}
+.top {
+    position: relative;
+    border-radius: 0px;
+}
+
+.top img {
+    width: 100%;
+    transition: 0.4s;
+    margin: 10px 0;
+}
+
+.top .top-title {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+    transform: translate(0, 110%);
+}
+
+/* .top:hover img {
+    transform: scale(120%);
+} */
+
+.top:hover .top-title {
+    transform: translate(0, 88%);
+}
+.top-like{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top-like .top{
+    width: 19.5%;
+    margin: 0 3px 6px 3px;
+}
+
+.top-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top-all .top {
+    width: 19.5%;
+    margin: 0 3px 6px 3px ;
+}
+

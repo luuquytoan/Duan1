@@ -1,0 +1,28 @@
+@font-face {
+    font-family: lobster_regula;
+    src: url('../content/font/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: babyloncia_regula;
+    src: url('../content/font/Babylonica-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: pacifico_regula;
+    src: url('../content/font/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: rowdies_regula;
+    src: url('../content/font/Rowdies-Regular.ttf') format('truetype');
+}
+.admin-nav-text a {
+    transition: 0.3s;
+}
+
+.admin-nav .admin-nav-text:hover a {
+    font-size: 20px;
+    color: rgb(133, 133, 248);
+    padding: 0;
+}
